@@ -1,13 +1,13 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include <stdbool.h>
 #include "banco.c"
 #include "calc.c"
 #include "boletim.c"
 #include "estacionamento.c"
+//.\main.exe
 
-
-
-void main() 
+int main() 
 {  
 int opcaomain;
 system("cls"); 
@@ -49,5 +49,6 @@ system("cls");
         break;
 
     }
+    return 0;
 }
  

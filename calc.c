@@ -5,6 +5,8 @@ float n1=0, n2=0, resultado=0;
 char opcaocalc;
 char ContinuarCalc, GRopcao = 's', GRexclusao = 0, lixo;
 
+int calculos(void);
+
 void calculadora()
 {
     //system("cls");
@@ -59,7 +61,7 @@ int calculos()
     break;
   
     case '/':
-    while("%f",n2==0)
+    while(n2==0)
     {
     printf("\nImpossível dividir por 0! Insira um valor válido: "); scanf("%f", &n2);
     }
